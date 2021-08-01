@@ -1,0 +1,10 @@
+OTP GENERATOR(PROJECT)
+# To Generate a 4 digit otp
+import random as r
+length = 4
+otp= ""
+characters = string.digits
+print(character)
+for i in range(length):
+  otp = otp + r.choice(characters)
+print("OTP:", otp)
