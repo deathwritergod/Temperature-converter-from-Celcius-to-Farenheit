@@ -1,0 +1,6 @@
+# Temperature Calculator
+# Temperature Converter From Degree Celcius To Farenheit
+temperature_in_celcius = float(input('Enter Temperature'))
+conversion = temperature_in_celcius*9/5+32
+output = str(conversion) + 'F'
+print(output)
